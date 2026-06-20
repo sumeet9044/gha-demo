@@ -9,7 +9,7 @@ jobs:
      - name: Checkout the code
        uses: actions/checkout@v4
      - name: Print index.html file
-       run: index.html 
+       run: cat index.html 
        
      
      
